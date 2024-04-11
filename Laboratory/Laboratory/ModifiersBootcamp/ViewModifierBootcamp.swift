@@ -12,6 +12,8 @@ struct ViewModifierBootcamp: View {
         Text("Modificador testado")
             .modifier(AlertTextModifier(textColor: .pink))
             .modifier(MYDefaultTextModifier())
+        
+        Text("\(Self.self)")
     }
 }
 
