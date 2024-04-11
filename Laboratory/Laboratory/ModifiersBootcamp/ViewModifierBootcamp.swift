@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ViewModifierBootcamp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .modifier(AlertTextModifier())
+        Text("Modificador testado")
+            .modifier(AlertTextModifier(textColor: .pink))
+            .modifier(MYDefaultTextModifier())
     }
 }
 
@@ -28,10 +29,13 @@ struct MYDefaultTextModifier: ViewModifier {
 }
 
 struct AlertTextModifier: ViewModifier {
+    
+    let textColor: Color
+    
     func body(content: Content) -> some View {
         content
             .font(.title)
-            .foregroundStyle(.red)
+            .foregroundStyle(textColor)
             .multilineTextAlignment(.center)
             .bold()
     }
