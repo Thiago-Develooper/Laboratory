@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF55C41A2BED432A00732097 /* AppleWatchTsss Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AF55C4192BED432A00732097 /* AppleWatchTsss Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF55C41F2BED432A00732097 /* AppleWatchTsssApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF55C41E2BED432A00732097 /* AppleWatchTsssApp.swift */; };
+		AF55C4212BED432A00732097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF55C4202BED432A00732097 /* ContentView.swift */; };
+		AF55C4232BED432C00732097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF55C4222BED432C00732097 /* Assets.xcassets */; };
+		AF55C4262BED432C00732097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF55C4252BED432C00732097 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF55C41B2BED432A00732097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF55C40D2BED432900732097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF55C4182BED432A00732097;
+			remoteInfo = "AppleWatchTsss Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF55C42C2BED432C00732097 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AF55C41A2BED432A00732097 /* AppleWatchTsss Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF55C4132BED432A00732097 /* AppleWatchTsss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchTsss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF55C4192BED432A00732097 /* AppleWatchTsss Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchTsss Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF55C41E2BED432A00732097 /* AppleWatchTsssApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchTsssApp.swift; sourceTree = "<group>"; };
+		AF55C4202BED432A00732097 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF55C4222BED432C00732097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF55C4252BED432C00732097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF55C4162BED432A00732097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF55C40C2BED432900732097 = {
+			isa = PBXGroup;
+			children = (
+				AF55C41D2BED432A00732097 /* AppleWatchTsss Watch App */,
+				AF55C4142BED432A00732097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF55C4142BED432A00732097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF55C4132BED432A00732097 /* AppleWatchTsss.app */,
+				AF55C4192BED432A00732097 /* AppleWatchTsss Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF55C41D2BED432A00732097 /* AppleWatchTsss Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AF55C41E2BED432A00732097 /* AppleWatchTsssApp.swift */,
+				AF55C4202BED432A00732097 /* ContentView.swift */,
+				AF55C4222BED432C00732097 /* Assets.xcassets */,
+				AF55C4242BED432C00732097 /* Preview Content */,
+			);
+			path = "AppleWatchTsss Watch App";
+			sourceTree = "<group>";
+		};
+		AF55C4242BED432C00732097 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF55C4252BED432C00732097 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF55C4122BED432A00732097 /* AppleWatchTsss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF55C42D2BED432C00732097 /* Build configuration list for PBXNativeTarget "AppleWatchTsss" */;
+			buildPhases = (
+				AF55C4112BED432A00732097 /* Resources */,
+				AF55C42C2BED432C00732097 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF55C41C2BED432A00732097 /* PBXTargetDependency */,
+			);
+			name = AppleWatchTsss;
+			productName = AppleWatchTsss;
+			productReference = AF55C4132BED432A00732097 /* AppleWatchTsss.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AF55C4182BED432A00732097 /* AppleWatchTsss Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF55C4292BED432C00732097 /* Build configuration list for PBXNativeTarget "AppleWatchTsss Watch App" */;
+			buildPhases = (
+				AF55C4152BED432A00732097 /* Sources */,
+				AF55C4162BED432A00732097 /* Frameworks */,
+				AF55C4172BED432A00732097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWatchTsss Watch App";
+			productName = "AppleWatchTsss Watch App";
+			productReference = AF55C4192BED432A00732097 /* AppleWatchTsss Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF55C40D2BED432900732097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AF55C4122BED432A00732097 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AF55C4182BED432A00732097 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AF55C4102BED432900732097 /* Build configuration list for PBXProject "AppleWatchTsss" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF55C40C2BED432900732097;
+			productRefGroup = AF55C4142BED432A00732097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF55C4122BED432A00732097 /* AppleWatchTsss */,
+				AF55C4182BED432A00732097 /* AppleWatchTsss Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF55C4112BED432A00732097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF55C4172BED432A00732097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF55C4262BED432C00732097 /* Preview Assets.xcassets in Resources */,
+				AF55C4232BED432C00732097 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF55C4152BED432A00732097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF55C4212BED432A00732097 /* ContentView.swift in Sources */,
+				AF55C41F2BED432A00732097 /* AppleWatchTsssApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF55C41C2BED432A00732097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF55C4182BED432A00732097 /* AppleWatchTsss Watch App */;
+			targetProxy = AF55C41B2BED432A00732097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF55C4272BED432C00732097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF55C4282BED432C00732097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AF55C42A2BED432C00732097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchTsss Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y55P884H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchTsss;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.AppleWatchTsss.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		AF55C42B2BED432C00732097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchTsss Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y55P884H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchTsss;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.AppleWatchTsss.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		AF55C42E2BED432C00732097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y55P884H9;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchTsss;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.AppleWatchTsss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF55C42F2BED432C00732097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y55P884H9;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchTsss;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FirstProject.AppleWatchTsss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF55C4102BED432900732097 /* Build configuration list for PBXProject "AppleWatchTsss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF55C4272BED432C00732097 /* Debug */,
+				AF55C4282BED432C00732097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF55C4292BED432C00732097 /* Build configuration list for PBXNativeTarget "AppleWatchTsss Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF55C42A2BED432C00732097 /* Debug */,
+				AF55C42B2BED432C00732097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF55C42D2BED432C00732097 /* Build configuration list for PBXNativeTarget "AppleWatchTsss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF55C42E2BED432C00732097 /* Debug */,
+				AF55C42F2BED432C00732097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF55C40D2BED432900732097 /* Project object */;
+}
