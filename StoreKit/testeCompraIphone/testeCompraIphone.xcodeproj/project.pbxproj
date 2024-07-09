@@ -11,6 +11,8 @@
 		AF84B5302C0F466E00855CC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84B52F2C0F466E00855CC7 /* ContentView.swift */; };
 		AF84B5322C0F466F00855CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF84B5312C0F466F00855CC7 /* Assets.xcassets */; };
 		AF84B5352C0F466F00855CC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF84B5342C0F466F00855CC7 /* Preview Assets.xcassets */; };
+		AF84B53D2C0F46A900855CC7 /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF84B53C2C0F46A900855CC7 /* PropertyList.plist */; };
+		AF84B53F2C0F46C700855CC7 /* storeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84B53E2C0F46C700855CC7 /* storeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		AF84B52F2C0F466E00855CC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF84B5312C0F466F00855CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF84B5342C0F466F00855CC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF84B53B2C0F468700855CC7 /* swift.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = swift.storekit; sourceTree = "<group>"; };
+		AF84B53C2C0F46A900855CC7 /* PropertyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		AF84B53E2C0F46C700855CC7 /* storeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,9 @@
 			children = (
 				AF84B52D2C0F466E00855CC7 /* testeCompraIphoneApp.swift */,
 				AF84B52F2C0F466E00855CC7 /* ContentView.swift */,
+				AF84B53B2C0F468700855CC7 /* swift.storekit */,
+				AF84B53C2C0F46A900855CC7 /* PropertyList.plist */,
+				AF84B53E2C0F46C700855CC7 /* storeManager.swift */,
 				AF84B5312C0F466F00855CC7 /* Assets.xcassets */,
 				AF84B5332C0F466F00855CC7 /* Preview Content */,
 			);
@@ -126,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF84B5352C0F466F00855CC7 /* Preview Assets.xcassets in Resources */,
+				AF84B53D2C0F46A900855CC7 /* PropertyList.plist in Resources */,
 				AF84B5322C0F466F00855CC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF84B53F2C0F46C700855CC7 /* storeManager.swift in Sources */,
 				AF84B5302C0F466E00855CC7 /* ContentView.swift in Sources */,
 				AF84B52E2C0F466E00855CC7 /* testeCompraIphoneApp.swift in Sources */,
 			);

@@ -1,0 +1,117 @@
+{
+  "identifier" : "BD8CFB15",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "5.99",
+      "familyShareable" : false,
+      "internalID" : "6A6F4DF1",
+      "localizations" : [
+        {
+          "description" : "Swfit",
+          "displayName" : "Swift",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Swift",
+          "displayName" : "Swift",
+          "locale" : "pt_BR"
+        }
+      ],
+      "productID" : "com.temporary.swift",
+      "referenceName" : "Swift",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "30D35533",
+      "localizations" : [
+        {
+          "description" : "Unreal Engine",
+          "displayName" : "Unreal Engine",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.temporary.ue5",
+      "referenceName" : "UE5",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "5690D2EB",
+      "localizations" : [
+        {
+          "description" : "Widget de post it",
+          "displayName" : "Widget né",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.temporary.widget",
+      "referenceName" : "Widget",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

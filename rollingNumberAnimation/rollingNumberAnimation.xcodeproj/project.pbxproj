@@ -11,6 +11,7 @@
 		AFDFA7192C2CB3260086388B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA7182C2CB3260086388B /* ContentView.swift */; };
 		AFDFA71B2C2CB3290086388B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA71A2C2CB3290086388B /* Assets.xcassets */; };
 		AFDFA71E2C2CB3290086388B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA71D2C2CB3290086388B /* Preview Assets.xcassets */; };
+		AFDFA7252C2CB3420086388B /* RollingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA7242C2CB3420086388B /* RollingText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AFDFA7182C2CB3260086388B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFDFA71A2C2CB3290086388B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFDFA71D2C2CB3290086388B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFDFA7242C2CB3420086388B /* RollingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AFDFA7162C2CB3260086388B /* rollingNumberAnimationApp.swift */,
 				AFDFA7182C2CB3260086388B /* ContentView.swift */,
+				AFDFA7242C2CB3420086388B /* RollingText.swift */,
 				AFDFA71A2C2CB3290086388B /* Assets.xcassets */,
 				AFDFA71C2C2CB3290086388B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDFA7252C2CB3420086388B /* RollingText.swift in Sources */,
 				AFDFA7192C2CB3260086388B /* ContentView.swift in Sources */,
 				AFDFA7172C2CB3260086388B /* rollingNumberAnimationApp.swift in Sources */,
 			);

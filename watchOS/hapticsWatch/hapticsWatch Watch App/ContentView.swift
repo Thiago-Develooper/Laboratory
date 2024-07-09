@@ -13,9 +13,21 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+                .onTapGesture {
+                    self.play(.success)
+                }
             Text("Hello, world!")
+                .onTapGesture {
+                    self.play(.success)
+                }
+
+            
         }
         .padding()
+    }
+    
+    func play(_ type: WKHapticType) {
+            
     }
 }
 

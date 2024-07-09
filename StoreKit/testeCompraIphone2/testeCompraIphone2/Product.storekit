@@ -1,0 +1,100 @@
+{
+  "identifier" : "B5C35940",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "C4F2478A",
+      "localizations" : [
+        {
+          "description" : "Swift pagoo",
+          "displayName" : "Swiftff",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "swift pago",
+          "displayName" : "swift",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "com.temporary.swift",
+      "referenceName" : "Swift",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "5.99",
+      "familyShareable" : false,
+      "internalID" : "8AD97718",
+      "localizations" : [
+        {
+          "description" : "Unreal Engine 5 pago",
+          "displayName" : "Unreal Engine 5",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.temporary.ue5",
+      "referenceName" : "UE5",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

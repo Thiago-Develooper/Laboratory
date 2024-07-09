@@ -1,19 +1,31 @@
 //
 //  ContentView.swift
-//  testeCompraIphone
+//  LearningStoreKit
 //
-//  Created by Thiago Pereira de Menezes on 04/06/24.
+//  Created by Thiago Pereira de Menezes on 24/05/24.
 //
 
 import SwiftUI
+import StoreKit
 
 struct ContentView: View {
+    @StateObject var storeKit = StoreKitManager()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ForEach(storeKit.storeProducts) { product in
+                HStack {
+                    Text(product.displayName)
+                    Spacer()
+                    Button {
+                        Task {
+                            try await storeKit.purchase(product)
+                        }
+                        
+                    } label: {
+                        CourseItem(storeKit: storeKit, product: product)
+                    }
+                }
+            }
         }
         .padding()
     }
@@ -22,3 +34,28 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+struct CourseItem: View {
+    @ObservedObject var storeKit: StoreKitManager
+    @State private var isPurchased: Bool = false
+    var product: Product
+    
+    var body: some View {
+        VStack {
+            if isPurchased {
+                Text(Image(systemName: "checkmark"))
+                    .bold()
+                    .padding(20)
+            } else {
+                Text(product.displayPrice)
+                    .padding(10)
+            }
+        }
+        .onChange(of: storeKit.purchasedCourses) { course, i in
+            Task {
+                isPurchased = (try? await storeKit.isPurchased(product)) ?? false
+            }
+        }
+    }
+}
+

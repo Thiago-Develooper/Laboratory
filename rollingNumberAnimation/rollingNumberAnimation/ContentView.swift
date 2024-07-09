@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var value: Int = 111
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack(spacing: 25) {
+                RollingText(font: .system(size: 55), wight: .black, value: $value)
+                
+                Button("Chage value") {
+                    value = .random(in: 200...300)
+                }
+            }
         }
         .padding()
     }

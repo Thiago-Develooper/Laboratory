@@ -35,7 +35,7 @@ struct RollingText: View {
                             }
                             .offset(y: -CGFloat(animationRange[index])  * size.height)
                         }
-//                        .clipped()
+                        .clipped()
                     }
             }
         }

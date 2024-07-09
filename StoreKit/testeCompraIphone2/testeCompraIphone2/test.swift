@@ -6,10 +6,14 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct test: View {
+    
+    @ObservedObject var storeKit = StoreKitManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        StoreView(products: storeKit.storeProducts)
     }
 }
 

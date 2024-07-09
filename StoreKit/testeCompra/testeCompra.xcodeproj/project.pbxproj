@@ -12,6 +12,8 @@
 		AF84B50D2C0F446700855CC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84B50C2C0F446700855CC7 /* ContentView.swift */; };
 		AF84B50F2C0F446900855CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF84B50E2C0F446900855CC7 /* Assets.xcassets */; };
 		AF84B5122C0F446900855CC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF84B5112C0F446900855CC7 /* Preview Assets.xcassets */; };
+		AF84B51E2C0F44D400855CC7 /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF84B51D2C0F44D400855CC7 /* PropertyList.plist */; };
+		AF84B5202C0F44F400855CC7 /* storeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84B51F2C0F44F400855CC7 /* storeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,9 @@
 		AF84B50C2C0F446700855CC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF84B50E2C0F446900855CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF84B5112C0F446900855CC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF84B51C2C0F44C100855CC7 /* swift.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = swift.storekit; sourceTree = "<group>"; };
+		AF84B51D2C0F44D400855CC7 /* PropertyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		AF84B51F2C0F44F400855CC7 /* storeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				AF84B50A2C0F446700855CC7 /* testeCompraApp.swift */,
 				AF84B50C2C0F446700855CC7 /* ContentView.swift */,
+				AF84B51F2C0F44F400855CC7 /* storeManager.swift */,
+				AF84B51C2C0F44C100855CC7 /* swift.storekit */,
+				AF84B51D2C0F44D400855CC7 /* PropertyList.plist */,
 				AF84B50E2C0F446900855CC7 /* Assets.xcassets */,
 				AF84B5102C0F446900855CC7 /* Preview Content */,
 			);
@@ -181,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF84B5122C0F446900855CC7 /* Preview Assets.xcassets in Resources */,
+				AF84B51E2C0F44D400855CC7 /* PropertyList.plist in Resources */,
 				AF84B50F2C0F446900855CC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF84B5202C0F44F400855CC7 /* storeManager.swift in Sources */,
 				AF84B50D2C0F446700855CC7 /* ContentView.swift in Sources */,
 				AF84B50B2C0F446700855CC7 /* testeCompraApp.swift in Sources */,
 			);

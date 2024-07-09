@@ -11,6 +11,10 @@
 		AF5E9A3A2BF28E23008AA3DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9A392BF28E23008AA3DA /* ContentView.swift */; };
 		AF5E9A3C2BF28E25008AA3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5E9A3B2BF28E25008AA3DA /* Assets.xcassets */; };
 		AF5E9A3F2BF28E25008AA3DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5E9A3E2BF28E25008AA3DA /* Preview Assets.xcassets */; };
+		AF5E9A462BF2975A008AA3DA /* BeActivTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9A452BF2975A008AA3DA /* BeActivTabView.swift */; };
+		AF5E9A482BF297E7008AA3DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9A472BF297E7008AA3DA /* HomeView.swift */; };
+		AF5E9A4A2BF2983A008AA3DA /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9A492BF2983A008AA3DA /* ActivityCard.swift */; };
+		AF5E9A4C2BF29A1C008AA3DA /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E9A4B2BF29A1C008AA3DA /* HealthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		AF5E9A392BF28E23008AA3DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF5E9A3B2BF28E25008AA3DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF5E9A3E2BF28E25008AA3DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF5E9A452BF2975A008AA3DA /* BeActivTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeActivTabView.swift; sourceTree = "<group>"; };
+		AF5E9A472BF297E7008AA3DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF5E9A492BF2983A008AA3DA /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		AF5E9A4B2BF29A1C008AA3DA /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		AF5E9A4D2BF38E3B008AA3DA /* HealthKitParaAprenderSegundaTentativa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthKitParaAprenderSegundaTentativa.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		AF5E9A362BF28E23008AA3DA /* HealthKitParaAprenderSegundaTentativa */ = {
 			isa = PBXGroup;
 			children = (
+				AF5E9A4D2BF38E3B008AA3DA /* HealthKitParaAprenderSegundaTentativa.entitlements */,
 				AF5E9A372BF28E23008AA3DA /* HealthKitParaAprenderSegundaTentativaApp.swift */,
 				AF5E9A392BF28E23008AA3DA /* ContentView.swift */,
+				AF5E9A452BF2975A008AA3DA /* BeActivTabView.swift */,
+				AF5E9A492BF2983A008AA3DA /* ActivityCard.swift */,
+				AF5E9A4B2BF29A1C008AA3DA /* HealthManager.swift */,
+				AF5E9A472BF297E7008AA3DA /* HomeView.swift */,
 				AF5E9A3B2BF28E25008AA3DA /* Assets.xcassets */,
 				AF5E9A3D2BF28E25008AA3DA /* Preview Content */,
 			);
@@ -94,6 +108,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
@@ -138,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF5E9A3A2BF28E23008AA3DA /* ContentView.swift in Sources */,
+				AF5E9A4C2BF29A1C008AA3DA /* HealthManager.swift in Sources */,
+				AF5E9A482BF297E7008AA3DA /* HomeView.swift in Sources */,
+				AF5E9A462BF2975A008AA3DA /* BeActivTabView.swift in Sources */,
 				AF5E9A382BF28E23008AA3DA /* HealthKitParaAprenderSegundaTentativaApp.swift in Sources */,
+				AF5E9A4A2BF2983A008AA3DA /* ActivityCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +290,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthKitParaAprenderSegundaTentativa/HealthKitParaAprenderSegundaTentativa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthKitParaAprenderSegundaTentativa/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Y55P884H9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Deixa usar o healthkit";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "deixa compartilhar o healthkit  fazv or";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,12 +322,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HealthKitParaAprenderSegundaTentativa/HealthKitParaAprenderSegundaTentativa.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HealthKitParaAprenderSegundaTentativa/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Y55P884H9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Deixa usar o healthkit";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "deixa compartilhar o healthkit  fazv or";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
